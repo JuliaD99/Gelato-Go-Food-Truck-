@@ -1,0 +1,373 @@
+<!DOCTYPE HTML> 
+
+
+<html lang="en"> 
+
+<head> 
+
+
+	<title> Gelato Go Menu </title> 
+	
+<meta charset="utf-8"> 
+
+<meta name="description" content="A food Truck Company Website with various gelato flavors, order and request a food truck in South Florida."> 
+
+<meta name="keywords" content="Gelato, Food Truck, italian ice, ice cream, italy, florida, truck, food, bussiness, waffles, italian ice cream, italian gelato, shop, gelato go, gelaterie"> 
+
+<meta name="author" content="Julia D'Alleva, Juana Enrici"> 
+
+<meta name="viewport" content="width=device-width, initial scale=1.0"> 
+	
+	<body style="background-color:#FFF7BF;">	
+	
+	<link href="https://fonts.googleapis.com/css2?family=Bayon&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<style>
+		*{margin: 0;}
+		
+		nav{
+			background-color: #faeab1;
+			}
+		nav ul{
+				text-align:center;
+				
+				}
+		nav ul li{
+				list-style:none;
+				display: inline-block; 
+				}
+		nav ul li a{
+					display:block;
+					text-decoration: none;
+					text-transform: uppercase;
+					color: #FF0549;
+					font-size: 23px;
+					font-family: 'Bayon',San-Serif;
+					letter-spacing: 2px;
+					font-weight: 500;
+					padding: 25px;
+					}
+		
+		
+		nav ul li a:hover{
+		background-color: #FF914D;
+		transition:all ease 1.5s;
+		}
+	body{
+margin:0;
+overflow-x:hidden;
+}
+.footer{
+position:relative;
+top:700px;
+}
+.footer{
+background:#faeab1;
+padding:30px 0px;
+font-family: 'Bayon', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:#FF914D;
+font-family: 'Play', sans-serif;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:#FF0549;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#FF0549;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
+		h1{
+		color: #FF0549;
+		font-size: 350%;
+		font-family: 'Bayon',San-Serif;
+		letter-spacing: 2px;
+		font-weight: 500;
+		position: absolute;
+		left: 45%;
+		bottom: 74%;
+		}
+		
+		h2{
+		color: #FF0549;
+		font-size: 190%;
+		font-family: 'Bayon',San-Serif;
+		letter-spacing: 2px;
+		font-weight: 500;
+		}
+
+table{
+		position: absolute;
+		right: 50%;
+		bottom: ;
+			}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: 'Play',sans-serif;
+    min-width: 400px;
+	background-color: #FF0549;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #FF914D;
+    color: white;
+
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid white;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #FF0549;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid white;
+}
+
+.extra-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: 'Play',sans-serif;
+    min-width: 400px;
+	background-color: #FF0549;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	position: absolute;
+	right: 20%;
+	bottom: -67.5%;
+}
+.extra-table thead tr {
+    background-color: #FF914D;
+    color: white;
+
+    text-align: left;
+}
+.extra-table th,
+.extra-table td {
+    padding: 12px 15px;
+}
+.extra-table tbody tr {
+    border-bottom: 1px solid white;
+}
+
+.extra-table tbody tr:nth-of-type(even) {
+    background-color: #FF0549;
+}
+
+.extra-table tbody tr:last-of-type {
+    border-bottom: 2px solid white;
+}
+
+	</style>
+	
+	</head>
+
+<body>
+	
+	
+
+<nav>
+
+<ul>
+<img style="position:sticky; top:15px;" src="images/GGLogo.png" alt="AAMV5 Logo" height="70px" width="70px">
+	&nbsp&nbsp<li><a href="Index.html">Home</a></li>
+	<li><a href="Menu.html">Menu</a></li>
+	<li><a href="Order.html">Order</a></li>
+	<li><a href="Events.html">Events</a></li>
+	<li><a href="Contact.html">Contact</a></li>
+	</ul>
+</nav>
+	
+	
+	<main>
+	<br><br><br><br>
+	<h1> Menu </h1>
+	
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	<img style="padding-bottom: 12px;" src="images/Vagnilia.jpg" alt="Picture of weighs " height="20%" width="20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	<img style="padding-bottom: 12px;"src="images/Limone.jpg" alt="Picture of weighs " height="20%" width="20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	<img style="padding-bottom: 12px;"src="images/Arachidi.jpg" alt="Picture of weighs " height="20%" width="20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	<img style="padding-bottom: 12px;"src="images/Lampone.jpg" alt="Picture of weighs " height="20%" width="20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	<img style="padding-bottom: 12px;"src="images/Nocciola.jpg" alt="Picture of weighs " height="20%" width="20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+	<img style="padding-bottom: 12px;"src="images/Menta.jpg" alt="Picture of weighs " height="20%" width="20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	<img style="padding-bottom: 12px;"src="images/Fragola.jpg" alt="Picture of weighs " height="20%" width="20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	<img style="padding-bottom: 12px;"src="images/Coco.jpg" alt="Picture of weighs " height="20%" width="20%">
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	
+	<h2	style="position: absolute; left: 4%; bottom: 40%;"> Vaniglia </h2>
+	<h2	style="position: absolute; left: 28%; bottom: 40%;">Limone </h2>
+	<h2	style="position: absolute; left: 52%; bottom: 40%;"> Arachidi </h2>
+	<h2 style="position: absolute; left: 76%; bottom: 40%;"> Lampone </h2>
+	<h2 style="position: absolute; left: 4%; bottom: -3%;"> Nocciola </h2>
+	<h2 style="position: absolute; left: 28%; bottom: -3%;"> Menta </h2>
+	<h2 style="position: absolute; left: 52%; bottom: -3%;">Fragola </h2>
+	<h2 style="position: absolute; left: 76%; bottom: -3%;"> Noce Di Cocco </h2>
+	
+	<br>
+	<br>
+	<br><br><br>
+	<h1 style="position: absolute; left: 26%; bottom: -25%;"> Gelato Prices </h1>
+		<br>
+	<br>
+	<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Size</th>
+			<th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Small Cone</td>
+            <td>$6.00</td>
+        </tr>
+        <tr>
+            <td>Medium Cone</td>
+            <td>$8.50</td>
+        </tr>
+        <tr>
+            <td>Large Cone</td>
+            <td>$10.25</td>
+        </tr>
+        <tr>
+            <td>Small Cup</td>
+            <td>$5.00</td>
+        </tr>
+        <tr>
+            <td>Medium Cup</td>
+            <td>$7.99</td>
+        </tr>
+        <tr>
+            <td>Large Cup</td>
+            <td>$9.50</td>
+        </tr>
+    </tbody>
+</table>
+
+<h1 style="position: absolute; left: 57%; bottom: -25%;"> Extra Prices </h1>
+		<br>
+	<br>
+	
+
+	<table class="extra-table">
+    <thead>
+        <tr>
+            <th>Extra</th>
+			<th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Bottled Water</td>
+            <td>$1.20</td>
+        </tr>
+        <tr>
+            <td>Choc. Chip Cookie</td>
+            <td>$2.00</td>
+        </tr>
+        <tr>
+            <td>Plain affle</td>
+            <td>$6.25</td>
+        </tr>
+        <tr>
+            <td>Chocolate Waffle</td>
+            <td>$6.50</td>
+        </tr>
+        <tr>
+            <td>Torrone</td>
+            <td>$4.99</td>
+        </tr>
+        <tr>
+            <td>Cannoncini</td>
+            <td>$6.50</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+	</main>
+
+
+<footer>
+<div class="footer">
+<div class="row">
+<a href="https://www.snapchat.com/"><i class="fa fa-snapchat"></i></a>
+<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+<a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
+<a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+<img src="images/GG.png" alt="AAMV5 Logo" height="3%" width="5%">
+</div>
+
+<div class="row">
+<ul>
+<li><a href="#">Contact us</a></li>
+<li><a href="#">Our Services</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms & Conditions</a></li>
+<li><a href="#">Career</a></li>
+</ul>
+</div>
+
+<div class="row">
+ Copyright © 2023 Gelato Go - All rights reserved 
+</div>
+</div>
+</footer>
+
+
+	
+	
+</body>
+</html>
